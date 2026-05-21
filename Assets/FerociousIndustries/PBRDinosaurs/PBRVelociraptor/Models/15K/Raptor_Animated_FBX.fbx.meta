@@ -1,0 +1,2561 @@
+fileFormatVersion: 2
+guid: 923da24417bde954e8eb93a36c143958
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: -5260203128266656945
+    second: RaptorArmature|Raptor_Idle1_Anim
+  - first:
+      74: 9016961776006405224
+    second: RaptorArmature|Standard_Pose
+  - first:
+      74: 2834425562706900171
+    second: RaptorArmature|Raptor_Roar1_Anim
+  - first:
+      74: 8191789351855399433
+    second: RaptorArmature|Raptor_Roar1_Anim (1)
+  - first:
+      74: -5683718842293277579
+    second: RaptorArmature|Raptor_Call1_Anim
+  - first:
+      74: -8699474913647977871
+    second: RaptorArmature|Raptor_Screech1_Anim
+  - first:
+      74: 1369745789714782098
+    second: RaptorArmature|Raptor_Bite1_Anim
+  - first:
+      74: 3805685717080202810
+    second: RaptorArmature|Raptor_Hit1_Anim
+  - first:
+      74: 466554012032395151
+    second: RaptorArmature|Raptor_PivotRight_Anim_RM
+  - first:
+      74: -5498571620683974705
+    second: RaptorArmature|Raptor_Walk1_Anim
+  - first:
+      74: -3913018213805238063
+    second: RaptorArmature|Raptor_Walk1_Anim_RM
+  - first:
+      74: -5802973623661493375
+    second: RaptorArmature|Raptor_Run1_Anim
+  - first:
+      74: -4044701723028110635
+    second: RaptorArmature|Raptor_Run1_Anim_RM
+  - first:
+      74: 7131483236743133339
+    second: RaptorArmature|Raptor_Walk1_Anim_RMM
+  - first:
+      74: 8228587739109792514
+    second: RaptorArmature|Raptor_Walk1_Anim_RMM (1)
+  - first:
+      74: 4555711425186041144
+    second: RaptorArmature|Raptor_Walk1_Anim_RM1
+  - first:
+      74: -9006819931510109957
+    second: RaptorArmature|Raptor_Run2_Anim
+  - first:
+      74: 9067214625058211241
+    second: RaptorArmature|Raptor_Run2_Anim_RM
+  - first:
+      74: -5645589696480447187
+    second: RaptorArmature|Raptor_Leap1_Anim
+  - first:
+      74: -3451694596111033580
+    second: RaptorArmature|Raptor_Leap1_Anim_RM
+  - first:
+      74: -8827493470686405246
+    second: RaptorArmature|Raptor_Leap2_Anim
+  - first:
+      74: -4737449126290088502
+    second: RaptorArmature|Raptor_Leap2_Anim_RM
+  - first:
+      74: 2891476447367250611
+    second: RaptorArmature|Raptor_Hit2_Anim
+  - first:
+      74: 5497243292792420328
+    second: RaptorArmature|Raptor_Hit3_Anim_RM
+  - first:
+      74: 7302696841112002598
+    second: RaptorArmature|Raptor_Hit3_Anim
+  - first:
+      74: 1074170409976846964
+    second: RaptorArmature|Raptor_Drink_Anim
+  - first:
+      74: -9077883669650344866
+    second: RaptorArmature|Raptor_SniffGround_Anim
+  - first:
+      74: -8061144669887966914
+    second: RaptorArmature|Raptor_Idle2_Anim
+  - first:
+      74: -5259233057448122732
+    second: RaptorArmature|Raptor_AlertLeft_Anim
+  - first:
+      74: -8945079991806943874
+    second: RaptorArmature|Raptor_AlertRight_Anim
+  - first:
+      74: 5383148585376431547
+    second: RaptorArmature|Raptor_EatPrey_Anim
+  - first:
+      74: 5690367358265959568
+    second: RaptorArmature|Raptor_Bite2_Anim
+  - first:
+      74: -722360230414628570
+    second: RaptorArmature|Raptor_Roar2_Anim
+  - first:
+      74: 7347129157420261156
+    second: RaptorArmature|Raptor_Death1_Anim
+  - first:
+      74: -3398154367868365451
+    second: RaptorArmature|Raptor_Death2_Anim
+  - first:
+      74: -8744107498521232282
+    second: RaptorArmature|Raptor_Tackle_Anim_RM
+  - first:
+      74: -2059553160335642353
+    second: RaptorArmature|Raptor_Tackle_Anim
+  - first:
+      74: 4876630066056293116
+    second: RaptorArmature|Raptor_Walk_Anim
+  - first:
+      74: 7897905309349255468
+    second: RaptorArmature|Raptor_Walk_Anim_RM
+  - first:
+      74: 2307952408533607642
+    second: RaptorArmature|Raptor_GoToSleep_Anim
+  - first:
+      74: 5015975073959143521
+    second: RaptorArmature|Raptor_SleepLoop_Anim
+  - first:
+      74: -1571940003589025153
+    second: RaptorArmature|Raptor_WakeFromSleep_Anim
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: RaptorArmature/Root
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'UpperLeg.L'
+      : rotation error = 9.265181 deg\n\t'Foot.L' : rotation error = 22.786453 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'RaptorArmature|Raptor_Bite1_Anim' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Neck_1' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Neck_2' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'PinkyFinger1.L'
+      has translation animation that will be discarded.\n\t'MiddleFinger1.L' has
+      translation animation that will be discarded.\n\t'ForeFinger1.L' has translation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Bite2_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Call1_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Death1_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Death2_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Drink_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_EatPrey_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_GoToSleep_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Shoulder.R' has translation
+      animation that will be discarded.\n\t'Pelvis.R' has translation animation that
+      will be discarded.\n\t'Pelvis.R' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Pelvis.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Hit1_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Hit2_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Hit3_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Hit3_Anim_RM' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Idle1_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Idle2_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_2' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Leap1_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Shoulder.R' has translation
+      animation that will be discarded.\n\t'Shoulder.L' has translation animation
+      that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Leap1_Anim_RM' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Shoulder.R' has translation
+      animation that will be discarded.\n\t'Shoulder.L' has translation animation
+      that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Leap2_Anim_RM' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Shoulder.R' has translation
+      animation that will be discarded.\n\t'Shoulder.L' has translation animation
+      that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Leap2_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Shoulder.R' has translation
+      animation that will be discarded.\n\t'Shoulder.L' has translation animation
+      that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Roar1_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'PinkyFinger1.L' has
+      translation animation that will be discarded.\n\t'MiddleFinger1.L' has translation
+      animation that will be discarded.\n\t'ForeFinger1.L' has translation animation
+      that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Roar2_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'MiddleFinger1.R' has
+      translation animation that will be discarded.\n\t'MiddleFinger1.L' has translation
+      animation that will be discarded.\n\t'Pelvis.R' has translation animation that
+      will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Pelvis.L'
+      has translation animation that will be discarded.\n\t'UpperLeg.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Run1_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Pelvis.R' has translation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Pelvis.L'
+      has translation animation that will be discarded.\n\t'UpperLeg.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Run1_Anim_RM' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Pelvis.R' has translation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Pelvis.L'
+      has translation animation that will be discarded.\n\t'UpperLeg.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Run2_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'PinkyFinger1.R' has
+      translation animation that will be discarded.\n\t'ForeFinger1.L' has translation
+      animation that will be discarded.\n\t'Pelvis.R' has translation animation that
+      will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'BigToe1.R'
+      has translation animation that will be discarded.\n\t'Pelvis.L' has translation
+      animation that will be discarded.\n\t'UpperLeg.L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'BigToe1.L'
+      has translation animation that will be discarded.\n\nClip 'RaptorArmature|Raptor_Run2_Anim_RM'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'PinkyFinger1.R'
+      has translation animation that will be discarded.\n\t'ForeFinger1.L' has translation
+      animation that will be discarded.\n\t'Pelvis.R' has translation animation that
+      will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Foot.R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'BigToe1.R'
+      has translation animation that will be discarded.\n\t'Pelvis.L' has translation
+      animation that will be discarded.\n\t'UpperLeg.L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'BigToe1.L'
+      has translation animation that will be discarded.\n\nClip 'RaptorArmature|Raptor_Screech1_Anim'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_SleepLoop_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'UpperLeg.L' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Foot.L' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'RaptorArmature|Raptor_SniffGround_Anim'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Tackle_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Pelvis.R' has translation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Tackle_Anim_RM' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Neck_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Pelvis.R' has translation
+      animation that will be discarded.\n\t'UpperLeg.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Foot.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_WakeFromSleep_Anim' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Neck_1' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Neck_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Shoulder.R'
+      has translation animation that will be discarded.\n\t'Pelvis.R' has translation
+      animation that will be discarded.\n\t'Pelvis.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'UpperLeg.R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Pelvis.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UpperLeg.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Walk_Anim' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Pelvis.R' has translation animation that will be discarded.\n\t'UpperLeg.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Pelvis.L'
+      has translation animation that will be discarded.\n\t'UpperLeg.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RaptorArmature|Raptor_Walk_Anim_RM' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Pelvis.R' has translation animation that will be discarded.\n\t'UpperLeg.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Pelvis.L'
+      has translation animation that will be discarded.\n\t'UpperLeg.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Foot.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Idle1_Anim
+      takeName: RaptorArmature|Raptor_Idle1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Standard_Pose
+      takeName: RaptorArmature|Standard_Pose
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Roar1_Anim
+      takeName: RaptorArmature|Raptor_Roar1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.29965553
+        functionName: Roar
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Call1_Anim
+      takeName: RaptorArmature|Raptor_Call1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.24593972
+        functionName: Call1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.50274473
+        functionName: Call2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.74984163
+        functionName: Call3
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Screech1_Anim
+      takeName: RaptorArmature|Raptor_Screech1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.3016627
+        functionName: Screech
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Bite1_Anim
+      takeName: RaptorArmature|Raptor_Bite1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.29902348
+        functionName: Bark
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Hit1_Anim
+      takeName: RaptorArmature|Raptor_Hit1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.14774913
+        functionName: Yelp
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Leap1_Anim
+      takeName: RaptorArmature|Raptor_Leap1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.1454502
+        functionName: Growl
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Run2_Anim
+      takeName: RaptorArmature|Raptor_Run2_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Run1_Anim
+      takeName: RaptorArmature|Raptor_Run1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Run1_Anim_RM
+      takeName: RaptorArmature|Raptor_Run1_Anim_RM
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Run2_Anim_RM
+      takeName: RaptorArmature|Raptor_Run2_Anim_RM
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Leap1_Anim_RM
+      takeName: RaptorArmature|Raptor_Leap1_Anim_RM
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.18000479
+        functionName: Growl
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Leap2_Anim
+      takeName: RaptorArmature|Raptor_Leap2_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.2533208
+        functionName: Roar
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Leap2_Anim_RM
+      takeName: RaptorArmature|Raptor_Leap2_Anim_RM
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.2487231
+        functionName: Roar
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Hit2_Anim
+      takeName: RaptorArmature|Raptor_Hit2_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.081465416
+        functionName: Yelp
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Hit3_Anim_RM
+      takeName: RaptorArmature|Raptor_Hit3_Anim_RM
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.11316651
+        functionName: Roar
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Hit3_Anim
+      takeName: RaptorArmature|Raptor_Hit3_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.11899348
+        functionName: Roar
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Drink_Anim
+      takeName: RaptorArmature|Raptor_Drink_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_SniffGround_Anim
+      takeName: RaptorArmature|Raptor_SniffGround_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.23397991
+        functionName: Sniff
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Idle2_Anim
+      takeName: RaptorArmature|Raptor_Idle2_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_EatPrey_Anim
+      takeName: RaptorArmature|Raptor_EatPrey_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Bite2_Anim
+      takeName: RaptorArmature|Raptor_Bite2_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.31322238
+        functionName: Bark
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Roar2_Anim
+      takeName: RaptorArmature|Raptor_Roar2_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.089782886
+        functionName: Roar
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Death1_Anim
+      takeName: RaptorArmature|Raptor_Death1_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.05456571
+        functionName: Death
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Death2_Anim
+      takeName: RaptorArmature|Raptor_Death2_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.020067124
+        functionName: Death
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Tackle_Anim_RM
+      takeName: RaptorArmature|Raptor_Tackle_Anim_RM
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Tackle_Anim
+      takeName: RaptorArmature|Raptor_Tackle_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Walk_Anim
+      takeName: RaptorArmature|Raptor_Walk_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_Walk_Anim_RM
+      takeName: RaptorArmature|Raptor_Walk_Anim_RM
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_GoToSleep_Anim
+      takeName: RaptorArmature|Raptor_GoToSleep_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_SleepLoop_Anim
+      takeName: RaptorArmature|Raptor_SleepLoop_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RaptorArmature|Raptor_WakeFromSleep_Anim
+      takeName: RaptorArmature|Raptor_WakeFromSleep_Anim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Spine_1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hip.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hip.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ankle.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ankle.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck_3
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BigToe1.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BigToe1.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaw_1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeFinger1.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeFinger2.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeFinger3.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger1.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger2.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger3.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger1.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger2.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger3.L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeFinger1.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeFinger2.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeFinger3.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger1.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger2.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger3.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger1.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger2.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger3.R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Raptor_Animated_FBX(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cornea
+      parentName: Raptor_Animated_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.24964152, y: 0.24964152, z: 0.24964152}
+    - name: Spikes
+      parentName: Raptor_Animated_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.24964152, y: 0.24964152, z: 0.24964152}
+    - name: RaptorArmature
+      parentName: Raptor_Animated_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 24.964153, y: 24.964153, z: 24.964153}
+    - name: Root
+      parentName: RaptorArmature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: Spine_1
+      parentName: Root
+      position: {x: -0.00017733696, y: 0.037755147, z: 0.0003685914}
+      rotation: {x: -0.0034843015, y: -0.9994301, z: -0.011966229, w: 0.031371426}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+    - name: Spine_2
+      parentName: Spine_1
+      position: {x: 1.1408701e-10, y: 0.014867674, z: -0.0000000029057263}
+      rotation: {x: -0.012844922, y: 0.000000001441889, z: -0.000000004151939, w: 0.9999175}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999998}
+    - name: Spine_3
+      parentName: Spine_2
+      position: {x: 2.6077032e-10, y: 0.014151073, z: -0.0000000025937332}
+      rotation: {x: -0.050877657, y: 0.0014179627, z: -0.0012820358, w: 0.9987031}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000004}
+    - name: Neck_1
+      parentName: Spine_3
+      position: {x: -5.587935e-10, y: 0.010566183, z: 0.0000000041909516}
+      rotation: {x: 0.3811947, y: 0.00000010924974, z: 0.000000042921176, w: 0.92449474}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1}
+    - name: Neck_2
+      parentName: Neck_1
+      position: {x: -6.705522e-10, y: 0.008436697, z: -5.2154064e-10}
+      rotation: {x: 0.20379749, y: -0.0000000044200164, z: 0.0000000430344, w: 0.9790131}
+      scale: {x: 0.99999976, y: 0.99999934, z: 1.000001}
+    - name: Neck_3
+      parentName: Neck_2
+      position: {x: 2.4214386e-10, y: 0.009061645, z: -1.862645e-10}
+      rotation: {x: -0.27588704, y: -0.00008312356, z: -0.0007916417, w: 0.9611898}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999946}
+    - name: Head
+      parentName: Neck_3
+      position: {x: 5.9604643e-10, y: 0.008448531, z: 0.0000000046333297}
+      rotation: {x: -0.68260664, y: 0.0000000015375147, z: 0.00000015070479, w: 0.73078597}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Eye.R
+      parentName: Head
+      position: {x: -0.0022700988, y: 0.009128577, z: 0.002074279}
+      rotation: {x: -0.029321551, y: 0.02760166, z: 0.7081746, w: 0.70488805}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000006}
+    - name: Eye.R_end
+      parentName: Eye.R
+      position: {x: -0, y: 0.004119983, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye.L
+      parentName: Head
+      position: {x: 0.0022700997, y: 0.009128579, z: 0.0020742689}
+      rotation: {x: 0.029321548, y: 0.027601775, z: 0.7081744, w: -0.7048883}
+      scale: {x: 1.0000012, y: 1.0000007, z: 1.0000011}
+    - name: Eye.L_end
+      parentName: Eye.L
+      position: {x: -0, y: 0.004119983, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaw_1
+      parentName: Head
+      position: {x: -7.532071e-10, y: 0.0052940766, z: -0.004272535}
+      rotation: {x: 0.35332513, y: -7.056261e-11, z: -0.00000008409436, w: -0.9355006}
+      scale: {x: 1, y: 0.99999964, z: 1.0000007}
+    - name: Jaw_2
+      parentName: Jaw_1
+      position: {x: -2.9802322e-10, y: 0.0038269712, z: -0.000000005327165}
+      rotation: {x: -0.26852885, y: -0.000000009763574, z: 0.00000007369717, w: -0.9632717}
+      scale: {x: 1, y: 1.0000014, z: 1.0000025}
+    - name: Jaw_2_end
+      parentName: Jaw_2
+      position: {x: -0, y: 0.013523038, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tongue_1
+      parentName: Jaw_1
+      position: {x: 5.9604643e-10, y: 0.0015556925, z: 0.0014042126}
+      rotation: {x: -0.33176565, y: 0.000000004630357, z: 0.00000008093095, w: -0.9433618}
+      scale: {x: 1.0000002, y: 1.0000013, z: 1.0000019}
+    - name: Tongue_2
+      parentName: Tongue_1
+      position: {x: -7.916242e-11, y: 0.0037554142, z: -0.0000000049918887}
+      rotation: {x: -0.06977683, y: 0.000000007140361, z: 0.000000017134717, w: 0.99756265}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+    - name: Tongue_3
+      parentName: Tongue_2
+      position: {x: 0.0000000011920929, y: 0.0033631946, z: 0.0000000024028122}
+      rotation: {x: -0.0027722344, y: -0.0000000111903855, z: 0.0000000015292076, w: 0.99999624}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000015}
+    - name: Tongue_4
+      parentName: Tongue_3
+      position: {x: 0.000000001117587, y: 0.002748847, z: -0.000000006016344}
+      rotation: {x: -0.06794644, y: 0.0000000027162124, z: 0.0000000058293006, w: 0.99768895}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999994}
+    - name: Tongue_4_end
+      parentName: Tongue_4
+      position: {x: -0, y: 0.003539922, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder.R
+      parentName: Spine_3
+      position: {x: -0.0029848998, y: 0.008139186, z: 0.0030786428}
+      rotation: {x: 0.26439586, y: -0.32278252, z: 0.74629354, w: 0.5186061}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1}
+    - name: UpperArm.R
+      parentName: Shoulder.R
+      position: {x: 0.000000006109476, y: 0.0074531874, z: 0.0000000020861626}
+      rotation: {x: -0.08540376, y: -0.13114719, z: -0.122948386, w: 0.979995}
+      scale: {x: 1.0000017, y: 1.0000002, z: 1.0000002}
+    - name: LowerArm.R
+      parentName: UpperArm.R
+      position: {x: -0.0000000016391277, y: 0.014540431, z: -0.000000002235174}
+      rotation: {x: -0.0077004796, y: -0.013029335, z: -0.012928445, w: 0.9998019}
+      scale: {x: 1.0000005, y: 1.000001, z: 0.99999964}
+    - name: Hand.R
+      parentName: LowerArm.R
+      position: {x: 0.000000002980232, y: 0.015390844, z: 5.9604643e-10}
+      rotation: {x: 0.08267816, y: -0.12849197, z: -0.09989607, w: 0.98319626}
+      scale: {x: 1.0000013, y: 1.0000011, z: 1.0000005}
+    - name: PinkyFinger1.R
+      parentName: Hand.R
+      position: {x: 0.0012139092, y: 0.007310872, z: 0.0012692481}
+      rotation: {x: 0.08072578, y: 0.039928805, z: -0.030251238, w: 0.9954767}
+      scale: {x: 0.9999989, y: 1.0000006, z: 0.99999875}
+    - name: PinkyFinger2.R
+      parentName: PinkyFinger1.R
+      position: {x: 5.9604643e-10, y: 0.0031254916, z: 0}
+      rotation: {x: 0.017651867, y: 0.10549789, z: 0.0058909445, w: 0.99424535}
+      scale: {x: 0.9999999, y: 1.0000012, z: 0.9999989}
+    - name: PinkyFinger3.R
+      parentName: PinkyFinger2.R
+      position: {x: -0, y: 0.003274764, z: -0.0000000011920929}
+      rotation: {x: 0.03082764, y: 0.038113754, z: 0.00978877, w: 0.99874985}
+      scale: {x: 1.0000006, y: 1.0000011, z: 0.9999998}
+    - name: PinkyFinger3.R_end
+      parentName: PinkyFinger3.R
+      position: {x: -0, y: 0.0056457096, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleFinger1.R
+      parentName: Hand.R
+      position: {x: 0.000075565746, y: 0.0079756845, z: 0.00025854437}
+      rotation: {x: 0.08389587, y: -0.0029210441, z: -0.006603993, w: 0.9964484}
+      scale: {x: 0.9999995, y: 1.0000014, z: 0.99999875}
+    - name: MiddleFinger2.R
+      parentName: MiddleFinger1.R
+      position: {x: 0.0000000014156103, y: 0.0038914892, z: -0.0000000011920929}
+      rotation: {x: 0.02480385, y: 0.014242676, z: 0.0056467103, w: 0.99957496}
+      scale: {x: 1.0000006, y: 1.0000011, z: 0.99999845}
+    - name: MiddleFinger3.R
+      parentName: MiddleFinger2.R
+      position: {x: -0, y: 0.0044364203, z: -2.9802322e-10}
+      rotation: {x: 0.028711053, y: -0.104785234, z: 0.0029151575, w: 0.9940761}
+      scale: {x: 0.99999964, y: 1.0000026, z: 0.9999988}
+    - name: MiddleFinger3.R_end
+      parentName: MiddleFinger3.R
+      position: {x: -0, y: 0.005949079, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ForeFinger1.R
+      parentName: Hand.R
+      position: {x: -0.0016214179, y: 0.0077515044, z: -0.00038652538}
+      rotation: {x: 0.08686102, y: -0.0097640045, z: 0.0040031024, w: 0.9961646}
+      scale: {x: 1.0000006, y: 1.000001, z: 0.99999905}
+    - name: ForeFinger2.R
+      parentName: ForeFinger1.R
+      position: {x: -0.000000001490116, y: 0.004032714, z: -0.0000000017881393}
+      rotation: {x: 0.02383573, y: -0.0267772, z: 0.0030019798, w: 0.9993527}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000001}
+    - name: ForeFinger3.R
+      parentName: ForeFinger2.R
+      position: {x: -7.0780515e-10, y: 0.0049899714, z: 0.000000002980232}
+      rotation: {x: 0.029042142, y: -0.11491918, z: 0.0012754378, w: 0.99294937}
+      scale: {x: 0.99999964, y: 1.0000025, z: 0.999999}
+    - name: ForeFinger3.R_end
+      parentName: ForeFinger3.R
+      position: {x: -0, y: 0.006075974, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder.L
+      parentName: Spine_3
+      position: {x: 0.0029848989, y: 0.008139185, z: 0.00307864}
+      rotation: {x: -0.060261834, y: -0.11704803, z: 0.7910695, w: -0.59739214}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000005}
+    - name: UpperArm.L
+      parentName: Shoulder.L
+      position: {x: -8.9406965e-10, y: 0.0074531827, z: -0.000000002980232}
+      rotation: {x: -0.019894892, y: 0.40377071, z: 0.14547442, w: 0.90300083}
+      scale: {x: 1.0000013, y: 1.0000006, z: 1.0000004}
+    - name: LowerArm.L
+      parentName: UpperArm.L
+      position: {x: 5.9604643e-10, y: 0.014540434, z: -5.9604643e-10}
+      rotation: {x: -0.0080682505, y: 0.012355566, z: 0.011814481, w: 0.9998213}
+      scale: {x: 0.99999917, y: 0.99999976, z: 0.999999}
+    - name: Hand.L
+      parentName: LowerArm.L
+      position: {x: -0, y: 0.015390848, z: 0.0000000021606683}
+      rotation: {x: 0.09887154, y: 0.15228127, z: 0.12409902, w: 0.97551745}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000011}
+    - name: PinkyFinger1.L
+      parentName: Hand.L
+      position: {x: -0.0012139076, y: 0.007310873, z: 0.001269247}
+      rotation: {x: 0.08072485, y: -0.039928395, z: 0.030251814, w: 0.99547684}
+      scale: {x: 1.0000004, y: 1.0000008, z: 0.9999994}
+    - name: PinkyFinger2.L
+      parentName: PinkyFinger1.L
+      position: {x: 5.9604643e-10, y: 0.0031254936, z: 8.9406965e-10}
+      rotation: {x: 0.017646592, y: -0.10549884, z: -0.005892197, w: 0.99424535}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000002}
+    - name: PinkyFinger3.L
+      parentName: PinkyFinger2.L
+      position: {x: -6.891787e-10, y: 0.0032747625, z: 0.000000007599592}
+      rotation: {x: 0.030828688, y: -0.03811362, z: -0.009789919, w: 0.99874985}
+      scale: {x: 1.0000015, y: 1.000001, z: 1.000001}
+    - name: PinkyFinger3.L_end
+      parentName: PinkyFinger3.L
+      position: {x: -0, y: 0.0056457096, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleFinger1.L
+      parentName: Hand.L
+      position: {x: -0.00007556409, y: 0.007975687, z: 0.0002585411}
+      rotation: {x: 0.08389466, y: 0.0029207466, z: 0.0066020126, w: 0.9964485}
+      scale: {x: 1.0000004, y: 1.0000014, z: 0.99999917}
+    - name: MiddleFinger2.L
+      parentName: MiddleFinger1.L
+      position: {x: -0, y: 0.0038914932, z: -0.0000000033527612}
+      rotation: {x: 0.024803096, y: -0.014242686, z: -0.0056470544, w: 0.99957496}
+      scale: {x: 1.0000011, y: 0.99999994, z: 1.0000011}
+    - name: MiddleFinger3.L
+      parentName: MiddleFinger2.L
+      position: {x: 0.0000000012665987, y: 0.0044364203, z: 5.3551047e-10}
+      rotation: {x: 0.028710796, y: 0.10478471, z: -0.002913873, w: 0.99407613}
+      scale: {x: 0.9999999, y: 1.0000015, z: 0.99999875}
+    - name: MiddleFinger3.L_end
+      parentName: MiddleFinger3.L
+      position: {x: -0, y: 0.0059490777, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ForeFinger1.L
+      parentName: Hand.L
+      position: {x: 0.0016214183, y: 0.0077515086, z: -0.0003865215}
+      rotation: {x: 0.086859085, y: 0.009764146, z: -0.0040038307, w: 0.99616474}
+      scale: {x: 1.0000012, y: 1.0000006, z: 0.9999995}
+    - name: ForeFinger2.L
+      parentName: ForeFinger1.L
+      position: {x: 4.1909515e-10, y: 0.004032717, z: -5.122274e-10}
+      rotation: {x: 0.023831062, y: 0.026777074, z: -0.0030019586, w: 0.9993529}
+      scale: {x: 0.9999989, y: 0.99999946, z: 0.9999998}
+    - name: ForeFinger3.L
+      parentName: ForeFinger2.L
+      position: {x: -0.000000002682209, y: 0.0049899714, z: -0.0000000013411044}
+      rotation: {x: 0.02904583, y: 0.114918895, z: -0.0012746807, w: 0.9929493}
+      scale: {x: 1.0000019, y: 1.0000002, z: 1.0000015}
+    - name: ForeFinger3.L_end
+      parentName: ForeFinger3.L
+      position: {x: -0, y: 0.006075974, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Breast.R
+      parentName: Spine_3
+      position: {x: -0.004283265, y: 0.0025729446, z: 0.00007808037}
+      rotation: {x: 0.5268943, y: -0.031512078, z: -0.022432575, w: -0.8490502}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: Breast.R_end
+      parentName: Breast.R
+      position: {x: -0, y: 0.013928687, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Breast.L
+      parentName: Spine_3
+      position: {x: 0.0042832647, y: 0.0025729453, z: 0.000078078636}
+      rotation: {x: 0.5268944, y: 0.031512078, z: 0.022432571, w: -0.84905016}
+      scale: {x: 1.0000001, y: 1.0000013, z: 1.0000008}
+    - name: Breast.L_end
+      parentName: Breast.L
+      position: {x: -0, y: 0.013928687, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis.R
+      parentName: Spine_1
+      position: {x: -0.0023660925, y: 0.00701888, z: 0.0022905061}
+      rotation: {x: 0.33092678, y: -0.18492332, z: 0.91063154, w: 0.16444194}
+      scale: {x: 0.99999934, y: 0.99999976, z: 0.99999994}
+    - name: Hip.R
+      parentName: Pelvis.R
+      position: {x: -5.9604643e-10, y: 0.013257308, z: -0.0000000023841857}
+      rotation: {x: -0.2906082, y: 0.30811328, z: -0.017997522, w: 0.9056982}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000004}
+    - name: UpperLeg.R
+      parentName: Hip.R
+      position: {x: 0.0000000047683715, y: 0.010858751, z: -8.9406965e-10}
+      rotation: {x: 0.39557204, y: 0.06339188, z: 0.46125442, w: 0.7916745}
+      scale: {x: 1.000001, y: 1.000001, z: 0.9999999}
+    - name: LowerLeg.R
+      parentName: UpperLeg.R
+      position: {x: 0.000000001490116, y: 0.017973233, z: 0.0000000011920929}
+      rotation: {x: 0.08888811, y: -0.008308672, z: -0.030765686, w: 0.99553174}
+      scale: {x: 1.0000014, y: 1.0000015, z: 1.0000012}
+    - name: Ankle.R
+      parentName: LowerLeg.R
+      position: {x: -0, y: 0.015461062, z: 0.000000002980232}
+      rotation: {x: -0.76716775, y: 0.011993963, z: -0.45883912, w: 0.44808084}
+      scale: {x: 1.0000011, y: 1.0000011, z: 1.0000004}
+    - name: Foot.R
+      parentName: Ankle.R
+      position: {x: 0.0000000013411044, y: 0.01327702, z: 0.0000000024586915}
+      rotation: {x: -0.34131876, y: -0.10609232, z: -0.3203155, w: 0.8772935}
+      scale: {x: 1.0000013, y: 0.99999857, z: 0.9999997}
+    - name: PinkyToe1.R
+      parentName: Foot.R
+      position: {x: 0.0028234262, y: 0.004216374, z: 0.0018300569}
+      rotation: {x: 0.15274607, y: 0.007003179, z: 0.08951754, w: 0.98417795}
+      scale: {x: 1.0000006, y: 1, z: 1.0000014}
+    - name: PinkyToe2.R
+      parentName: PinkyToe1.R
+      position: {x: 7.45058e-10, y: 0.004002573, z: 5.2154064e-10}
+      rotation: {x: 0.41671756, y: 0.03729425, z: 0.21015291, w: -0.883624}
+      scale: {x: 1.0000008, y: 1.0000013, z: 0.99999964}
+    - name: PinkyToe2.R_end
+      parentName: PinkyToe2.R
+      position: {x: -0, y: 0.004864274, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleToe1.R
+      parentName: Foot.R
+      position: {x: 0.00045058012, y: 0.00313289, z: -0.0007837194}
+      rotation: {x: 0.041329768, y: 0.010294271, z: 0.18620732, w: 0.9815868}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000007}
+    - name: MiddleToe2.R
+      parentName: MiddleToe1.R
+      position: {x: 0.0000000010058283, y: 0.0038837856, z: -7.45058e-10}
+      rotation: {x: 0.328042, y: -0.059540678, z: 0.18547972, w: -0.92435956}
+      scale: {x: 0.9999996, y: 1.0000024, z: 0.9999996}
+    - name: MiddleToe2.R_end
+      parentName: MiddleToe2.R
+      position: {x: -0, y: 0.004864274, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BigToe1.R
+      parentName: Foot.R
+      position: {x: -0.0024721192, y: 0.0011809947, z: -0.0023439045}
+      rotation: {x: -0.062470958, y: -0.020517224, z: 0.20478392, w: 0.9765962}
+      scale: {x: 1.0000018, y: 1.0000023, z: 1.0000004}
+    - name: BigToe2.R
+      parentName: BigToe1.R
+      position: {x: -0.0000000014528632, y: 0.003164084, z: -0.0000000011920929}
+      rotation: {x: 0.41804665, y: 0.017849771, z: 0.28707623, w: -0.8616877}
+      scale: {x: 0.99999946, y: 1.0000011, z: 0.9999985}
+    - name: BigToe3.R
+      parentName: BigToe2.R
+      position: {x: 0.0000000010430813, y: 0.0027602976, z: -0.000000001490116}
+      rotation: {x: -0.13291778, y: -0.006617849, z: -0.13220954, w: 0.9822473}
+      scale: {x: 1.0000032, y: 0.99999785, z: 1.0000002}
+    - name: BigToe3.R_end
+      parentName: BigToe3.R
+      position: {x: -0, y: 0.006162408, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_1
+      parentName: Spine_1
+      position: {x: 9.313225e-11, y: -0.0034216163, z: -0.00012593795}
+      rotation: {x: 0.9998959, y: -0.00000021903324, z: -0.000015201192, w: 0.014433474}
+      scale: {x: 0.9999999, y: 0.99999887, z: 0.99997514}
+    - name: Tail_2
+      parentName: Tail_1
+      position: {x: -7.4505804e-11, y: 0.012234541, z: -0.0000000056810676}
+      rotation: {x: -0.049150832, y: 0.00001708424, z: 0.0000006496368, w: 0.9987914}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999833}
+    - name: Tail_3
+      parentName: Tail_2
+      position: {x: -5.0291415e-10, y: 0.0140416855, z: -0.000000002514571}
+      rotation: {x: -0.013804156, y: -0.000004059425, z: 0.0000000012885266, w: 0.9999048}
+      scale: {x: 0.99999976, y: 1.0000023, z: 0.99999887}
+    - name: Tail_4
+      parentName: Tail_3
+      position: {x: -0.000000002980232, y: 0.01302564, z: -5.2154064e-10}
+      rotation: {x: -0.009837394, y: -0.000000099679696, z: 0.000000060248645, w: 0.9999516}
+      scale: {x: 0.99999934, y: 1.0000007, z: 1.0000021}
+    - name: Tail_5
+      parentName: Tail_4
+      position: {x: -0.0000000014528632, y: 0.00934713, z: 0.0000000040233132}
+      rotation: {x: 0.026211163, y: 0.00000010301925, z: -0.000000079683005, w: 0.9996565}
+      scale: {x: 0.99999845, y: 0.9999968, z: 1.0000117}
+    - name: Tail_6
+      parentName: Tail_5
+      position: {x: -0.0000000025331974, y: 0.008170678, z: -1.4901161e-10}
+      rotation: {x: 0.0048474274, y: 0.000000009092019, z: -0.000000053998782, w: 0.99998826}
+      scale: {x: 0.9999985, y: 1.000001, z: 1.0000042}
+    - name: Tail_7
+      parentName: Tail_6
+      position: {x: -0.000000006780028, y: 0.0075056255, z: 0.000000004246831}
+      rotation: {x: -0.0054872315, y: -0.00000010961216, z: 0.000000082013486, w: 0.9999849}
+      scale: {x: 0.9999983, y: 1.0000007, z: 1.0000025}
+    - name: Tail_8
+      parentName: Tail_7
+      position: {x: 0.000000004172325, y: 0.0065900013, z: -0.0000000023841857}
+      rotation: {x: 0.015152225, y: -0.000000008648029, z: -0.00000012833047, w: 0.9998852}
+      scale: {x: 0.99999887, y: 1.0000006, z: 1.0000046}
+    - name: Tail_9
+      parentName: Tail_8
+      position: {x: 0.000000002980232, y: 0.005523063, z: 0.0000000077486035}
+      rotation: {x: 0.016909447, y: -0.00000068749586, z: -0.00000010209527, w: 0.999857}
+      scale: {x: 0.9999989, y: 0.99999905, z: 1.0000027}
+    - name: Tail_10
+      parentName: Tail_9
+      position: {x: -0.000000004172325, y: 0.005121182, z: 0.000000011920928}
+      rotation: {x: 0.046087712, y: -0.000000023953868, z: -0.00000028151152, w: 0.99893737}
+      scale: {x: 0.9999999, y: 0.9999963, z: 1.0000033}
+    - name: Tail_10_end
+      parentName: Tail_10
+      position: {x: -0, y: 0.0049335267, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thigh.R
+      parentName: Spine_1
+      position: {x: -0.0066774855, y: 0.010242245, z: -0.0033664193}
+      rotation: {x: 0.7758747, y: 0.080115, z: 0.061749414, w: -0.6227255}
+      scale: {x: 1, y: 1.0000006, z: 1}
+    - name: Thigh.R_end
+      parentName: Thigh.R
+      position: {x: -0, y: 0.0165828, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis.L
+      parentName: Spine_1
+      position: {x: 0.002366093, y: 0.007026017, z: 0.002027577}
+      rotation: {x: 0.6072791, y: 0.15639181, z: -0.76542264, w: 0.14450558}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Hip.L
+      parentName: Pelvis.L
+      position: {x: -0, y: 0.0124944495, z: -5.9604643e-10}
+      rotation: {x: 0.2874513, y: 0.5683522, z: 0.11097081, w: -0.7629109}
+      scale: {x: 1.000001, y: 1.0000004, z: 0.9999995}
+    - name: UpperLeg.L
+      parentName: Hip.L
+      position: {x: 7.45058e-10, y: 0.010902525, z: 8.9406965e-10}
+      rotation: {x: 0.3241466, y: -0.074392095, z: -0.4278822, w: 0.8404235}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000001}
+    - name: LowerLeg.L
+      parentName: UpperLeg.L
+      position: {x: 0.000000002682209, y: 0.017976506, z: -2.9802322e-10}
+      rotation: {x: 0.09071943, y: 0.59749025, z: 0.068566784, w: 0.79377204}
+      scale: {x: 0.99999905, y: 0.99999964, z: 1.0000011}
+    - name: Ankle.L
+      parentName: LowerLeg.L
+      position: {x: -0.000000002980232, y: 0.015461066, z: 5.9604643e-10}
+      rotation: {x: -0.89566904, y: -0.27310127, z: -0.06660009, w: 0.3446116}
+      scale: {x: 0.99999934, y: 0.9999989, z: 1.0000012}
+    - name: Foot.L
+      parentName: Ankle.L
+      position: {x: -2.9802322e-10, y: 0.0132770175, z: 0.000000002682209}
+      rotation: {x: -0.34131894, y: 0.1060925, z: 0.32031563, w: 0.87729335}
+      scale: {x: 0.99999994, y: 0.9999988, z: 1.0000014}
+    - name: PinkyToe1.L
+      parentName: Foot.L
+      position: {x: -0.0028234208, y: 0.004216377, z: 0.0018300554}
+      rotation: {x: 0.15274605, y: -0.0070032766, z: -0.08951742, w: 0.984178}
+      scale: {x: 1.0000019, y: 1.000001, z: 1.0000008}
+    - name: PinkyToe2.L
+      parentName: PinkyToe1.L
+      position: {x: -0.0000000020116566, y: 0.004002574, z: 9.685754e-10}
+      rotation: {x: 0.4167177, y: -0.037294276, z: -0.21015279, w: -0.88362396}
+      scale: {x: 0.9999988, y: 1.0000018, z: 0.99999875}
+    - name: PinkyToe2.L_end
+      parentName: PinkyToe2.L
+      position: {x: -0, y: 0.004864274, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleToe1.L
+      parentName: Foot.L
+      position: {x: -0.0004505752, y: 0.0031328904, z: -0.0007837203}
+      rotation: {x: 0.041329686, y: -0.010294476, z: -0.18620732, w: 0.9815869}
+      scale: {x: 1.0000018, y: 1.0000005, z: 1.0000007}
+    - name: MiddleToe2.L
+      parentName: MiddleToe1.L
+      position: {x: 0.0000000016577542, y: 0.0038837814, z: -0.0000000010430813}
+      rotation: {x: 0.328042, y: 0.05954073, z: -0.18547986, w: -0.92435956}
+      scale: {x: 1.0000002, y: 1.0000015, z: 0.9999999}
+    - name: MiddleToe2.L_end
+      parentName: MiddleToe2.L
+      position: {x: -0, y: 0.004864274, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BigToe1.L
+      parentName: Foot.L
+      position: {x: 0.0024721217, y: 0.0011809932, z: -0.0023439042}
+      rotation: {x: -0.062470853, y: 0.020517066, z: -0.20478396, w: 0.9765961}
+      scale: {x: 1.000002, y: 0.99999994, z: 1.000001}
+    - name: BigToe2.L
+      parentName: BigToe1.L
+      position: {x: -2.7939676e-10, y: 0.0031640865, z: 0.0000000016391277}
+      rotation: {x: 0.4180467, y: -0.01784958, z: -0.28707623, w: -0.8616877}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000007}
+    - name: BigToe3.L
+      parentName: BigToe2.L
+      position: {x: 0.000000001117587, y: 0.0027603, z: 7.4505804e-11}
+      rotation: {x: -0.13291782, y: 0.0066178674, z: 0.13220961, w: 0.9822473}
+      scale: {x: 0.9999996, y: 0.9999992, z: 1.0000008}
+    - name: BigToe3.L_end
+      parentName: BigToe3.L
+      position: {x: -0, y: 0.006162408, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thigh.L
+      parentName: Spine_1
+      position: {x: 0.006677486, y: 0.010242245, z: -0.0033664203}
+      rotation: {x: 0.7758747, y: -0.08011498, z: -0.06174939, w: -0.6227255}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Thigh.L_end
+      parentName: Thigh.L
+      position: {x: -0, y: 0.0165828, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_IK
+      parentName: Root
+      position: {x: 0.03129886, y: 0.052585647, z: 0.08702257}
+      rotation: {x: 0.7071068, y: -0.0000020539574, z: -0.0000020539576, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Tail_IK_end
+      parentName: Tail_IK
+      position: {x: -0, y: 0.010118685, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tongue_IK
+      parentName: Root
+      position: {x: -0.0015481898, y: 0.04886411, z: -0.05112183}
+      rotation: {x: 0.8677143, y: 0.000000059254532, z: -0.00000010343957, w: -0.4970633}
+      scale: {x: 1.0000001, y: 0.9999995, z: 0.9999995}
+    - name: Tongue_IK_end
+      parentName: Tongue_IK
+      position: {x: -0, y: 0.005944361, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootIK.R
+      parentName: Root
+      position: {x: -0.017384619, y: 0.0037146257, z: 0.021505032}
+      rotation: {x: -0, y: -0.8425971, z: -0, w: 0.5385444}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000004}
+    - name: FootIK.R_end
+      parentName: FootIK.R
+      position: {x: -0, y: 0.008052311, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootIK.L
+      parentName: Root
+      position: {x: 0.019816142, y: 0.003682351, z: 0.00705625}
+      rotation: {x: -0, y: 0.8425971, z: -0, w: 0.5385444}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000004}
+    - name: FootIK.L_end
+      parentName: FootIK.L
+      position: {x: -0, y: 0.008052311, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Retopo
+      parentName: Raptor_Animated_FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.24964152, y: 0.24964152, z: 0.24964152}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
