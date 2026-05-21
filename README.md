@@ -10,7 +10,7 @@ A 3D animated Unity project set in a dark forest environment, featuring a contro
 
 
 
-\[Watch Gameplay Video](https://drive.google.com/file/d/1jGcl\_50DYpiFYOTi78Ny7ZLHLChM-Glv/view?usp=drive\_link)
+\[Watch Gameplay Video](https://drive.google.com/file/d/1jGcl_50DYpiFYOTi78Ny7ZLHLChM-Glv/view?usp=sharing)
 
 
 
