@@ -18,7 +18,19 @@ A 3D animated Unity project set in a dark forest environment, featuring a contro
 
 
 
-> Add your screenshots inside a folder named `Screenshots` and replace these placeholder names with your real image names.
+## Screenshots
+
+### Forest Environment
+<img src="Screenshots/forest-environment.png" width="800"/>
+
+### Ninja Character
+<img src="Screenshots/ninja-character.png" width="800"/>
+
+### Dinosaur Animation
+<img src="Screenshots/dinosaur-animation.png" width="800"/>
+
+### Wooden House Area
+<img src="Screenshots/wooden-house-area.png" width="800"/>
 
 
 
