@@ -12,7 +12,7 @@
 
 ## Overview
 
-A 3D animated Unity project set in a dark forest environment — featuring a controllable ninja character, AI-driven dinosaur enemies, realistic terrain, and immersive lighting. The project focuses on character animation, environment design, and third-person gameplay mechanics.
+A 3D Unity project set in a dark forest environment, featuring a player-controlled ninja character with run and jump movement, dinosaur NPCs that play randomised Mixamo animations, realistic terrain, and immersive lighting. The project focuses on character animation, environment design, and third-person gameplay mechanics.
 
 ---
 
@@ -37,7 +37,7 @@ A 3D animated Unity project set in a dark forest environment — featuring a con
 | | Feature |
 |---|---|
 | 🥷 | Third-person ninja character with full movement system |
-| 🦖 | Animated dinosaur enemies with randomised behaviours |
+| 🦖 | Animated dinosaur NPCs with randomised idle, roar, and eat animations |
 | 🌲 | Dark forest environment with realistic terrain and lighting |
 | 🎮 | Camera controls and interaction system |
 | 🎨 | Imported Mixamo animations and environment prefabs |
